@@ -31,6 +31,13 @@ Next step is about implementing the swagger at our project
 
 **3. Create a new class inside config package SwaggerConfig.java**
 
+Make sure to add class level annotations:
+
+```
+@Configuration
+@EnableSwagger2
+```
+
   Add the following code below:
   
   ```
